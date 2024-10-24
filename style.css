@@ -1,0 +1,33 @@
+/* Simple styling for tabs */
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+/* Hide all tab content sections by default */
+.tab-content {
+    display: none;
+}
+
+/* Display the active tab */
+.active {
+    display: block;
+}
+
+.container {
+    margin: 20px auto;
+    width: 600px;
+    text-align: center;
+    /* display: none; */
+}
+
+.tab-content {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
